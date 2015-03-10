@@ -1,0 +1,30 @@
+{
+  "name": "pathinfo",
+  "version": "0.1.0",
+  "description": "Returns consolidated info about a filesystem path without having to call multiple path.* methods.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/index.spec.js | tap-spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dylansmith/node-pathinfo.git"
+  },
+  "keywords": [
+    "path",
+    "filesystem",
+    "dirname",
+    "basename",
+    "extname"
+  ],
+  "author": "Dylan Smith",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dylansmith/node-pathinfo/issues"
+  },
+  "homepage": "https://github.com/dylansmith/node-pathinfo",
+  "dependencies": {
+    "tap-spec": "^2.2.2",
+    "tape": "^3.5.0"
+  }
+}
